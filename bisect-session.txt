@@ -1,8 +1,11 @@
+
 Note:
 The original bug (todo list cleared) was introduced in Commit 4.
 However, subsequent commits added new tasks, masking the bug.
 As a result, git bisect identified Commit 8 as the first observable bad commit
 based on the chosen test condition.
+
+
 
 
 Script started on 2026-01-07 11:22:38+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="72" LINES="39"]
@@ -109,11 +112,6 @@ Date:   Tue Jan 6 18:20:51 2026 +0530
 
  todo.txt | 1 [32m+[m
  1 file changed, 1 insertion(+)
-[?2004h]0;devansh@HESTABIT-362: ~/Desktop/todo-list-repo[01;32mdevansh@HESTABIT-362[00m:[01;34m~/Desktop/todo-list-repo[00m$ AAAAA[K[K[K[K[K[7mgit bisect reset[27m
-
-[7mexit[27m
-
-[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit bisect reset
 
 exit
 
